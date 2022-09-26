@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class CookieMethodTest {
     @Test
-    public void testStringLength() {
+    public void testCookieMethod() {
         Response response = RestAssured
                 .get("https://playground.learnqa.ru/api/homework_cookie")
                 .andReturn();
